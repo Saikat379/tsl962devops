@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-13T09:52:39Z" name="Suite" finished-at="2021-10-13T09:52:55Z" duration-ms="16489">
+    <groups>
+    </groups>
+    <test started-at="2021-10-13T09:52:39Z" name="Test1" finished-at="2021-10-13T09:52:39Z" duration-ms="125">
+      <class name="loginTests.AppTest">
+        <test-method signature="invalidLoginTest()[pri:0, instance:loginTests.AppTest@67b9b51a]" started-at="2021-10-13T09:52:39Z" name="invalidLoginTest" description="InValid Test" finished-at="2021-10-13T09:52:39Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="validLoginTest()[pri:0, instance:loginTests.AppTest@67b9b51a]" started-at="2021-10-13T09:52:39Z" name="validLoginTest" description="Valid Test" finished-at="2021-10-13T09:52:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+      </class> <!-- loginTests.AppTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-10-13T09:52:39Z" name="Test2" finished-at="2021-10-13T09:52:39Z" duration-ms="3">
+      <class name="loginTests.NumberComparison">
+        <test-method signature="intComparison()[pri:0, instance:loginTests.NumberComparison@c7045b9]" started-at="2021-10-13T09:52:39Z" name="intComparison" finished-at="2021-10-13T09:52:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intComparison -->
+      </class> <!-- loginTests.NumberComparison -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-10-13T09:52:39Z" name="Test3" finished-at="2021-10-13T09:52:55Z" duration-ms="16104">
+      <class name="loginTests.SeleniumDev">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:loginTests.SeleniumDev@732d0d24]" started-at="2021-10-13T09:52:39Z" name="beforeTest" finished-at="2021-10-13T09:52:49Z" duration-ms="10267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="titleTest()[pri:0, instance:loginTests.SeleniumDev@732d0d24]" started-at="2021-10-13T09:52:49Z" name="titleTest" finished-at="2021-10-13T09:52:52Z" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:loginTests.SeleniumDev@732d0d24]" started-at="2021-10-13T09:52:52Z" name="afterTest" finished-at="2021-10-13T09:52:55Z" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- loginTests.SeleniumDev -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
